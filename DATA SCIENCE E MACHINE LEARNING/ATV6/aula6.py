@@ -9,7 +9,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-opt = int(input('Selecione uma das amostrar abaixo:\n1 - Teste: IRIS\n2 - Teste: WINE\n-R:'))
+opt = int(input("""
+            +=========================================+ 
+            |    'Selecione uma das amostrar abaixo:  |  
+            |      1 - Teste: IRIS                    |
+            |      2 - Teste: WINE                    |
+            |      R:                                 |
+            +=========================================+
+                """))
 match opt:
     case 1:
         iris_str = r""" 
@@ -88,7 +95,7 @@ match opt:
         x_wine = wine.data
         y_wine = wine.target
         
-        print(f'\nTotal de amostras: {x_wine.shape[0]}\n')
+        print(f'\nTotal de amostras: {x_wine.shape}\n')
         print("\n" + "=" * 100)
 
         # +-------------------------------------+
