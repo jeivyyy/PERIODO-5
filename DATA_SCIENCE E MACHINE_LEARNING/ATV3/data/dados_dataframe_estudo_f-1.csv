@@ -1,0 +1,121 @@
+id , nome    , idade, sexo, cidade        , profissao  , salario, 
+  1, Daniela ,    37, M   , Porto Alegre  , Médico     , 11448.67
+  2, Eduardo ,    46, F   , Curitiba      , Analista   ,  5047.48
+  3, Helena  ,    31, F   , São Paulo     , Designer   ,  1612.09
+  4, Juliana ,    45, M   , Curitiba      , Vendedor   ,  2003.0
+  5, Carlos  ,    32, F   , Porto Alegre  , Professor  , 10911.05
+  6, Helena  ,    45, M   , Rio de Janeiro, Engenheiro ,  8824.75
+  7, Ana     ,    62, M   , São Paulo     , Analista   ,  5639.72
+  8, Daniela ,    57, M   , Belo Horizonte, Engenheiro , 11686.48
+  9, Gabriel ,    34, F   , Porto Alegre  , Designer   ,  7009.27
+ 10, Bruno   ,    20, F   , Recife        , Professor  ,  6451.19
+ 11, Juliana ,    20, M   , Recife        , Vendedor   ,  9047.16
+ 12, Bruno   ,    44, F   , Curitiba      , Designer   , 12586.36
+ 13, Igor    ,    28, F   , Salvador      , Designer   , 14734.57
+ 14, Bruno   ,    20, F   , Porto Alegre  , Programador,  9289.8
+ 15, Helena  ,    25, F   , São Paulo     , Programador, 13021.88
+ 16, Ana     ,    22, F   , Salvador      , Analista   ,  9390.28
+ 17, Juliana ,    26, M   , Belo Horizonte, Engenheiro ,  1630.53
+ 18, Bruno   ,    53, M   , Rio de Janeiro, Professor  , 11837.9
+ 19, Igor    ,    27, M   , Porto Alegre  , Médico     , 10362.44
+ 20, Juliana ,    30, F   , Rio de Janeiro, Médico     ,  7777.68
+ 21, Igor    ,    30, F   , Rio de Janeiro, Vendedor   ,  3471.83
+ 22, Fernanda,    50, F   , Curitiba      , Médico     , 11625.85
+ 23, Daniela ,    33, F   , Salvador      , Professor  ,  1693.07
+ 24, Fernanda,    57, F   , Recife        , Analista   ,  9966.64
+ 25, Ana     ,    19, F   , Belo Horizonte, Médico     ,  2450.35
+ 26, Eduardo ,    43, M   , Belo Horizonte, Designer   ,  9043.25
+ 27, Eduardo ,    26, F   , Salvador      , Médico     , 13281.19
+ 28, Gabriel ,    62, F   , Porto Alegre  , Vendedor   ,  5584.73
+ 29, Igor    ,    34, F   , Recife        , Vendedor   ,  1896.12
+ 30, Igor    ,    36, F   , Rio de Janeiro, Designer   ,  6691.98
+ 31, Eduardo ,    44, F   , Curitiba      , Engenheiro ,  8379.93
+ 32, Bruno   ,    21, M   , Curitiba      , Médico     , 12270.01
+ 33, Daniela ,    37, F   , Recife        , Médico     , 14848.64
+ 34, Daniela ,    63, M   , Recife        , Analista   ,  5364.56
+ 35, Eduardo ,    23, M   , Salvador      , Vendedor   , 13079.54
+ 36, Igor    ,    56, M   , São Paulo     , Vendedor   ,  7371.21
+ 37, Carlos  ,    18, F   , Salvador      , Médico     ,  7874.56
+ 38, Eduardo ,    57, M   , Belo Horizonte, Vendedor   , 11023.73
+ 39, Bruno   ,    51, M   , Salvador      , Designer   ,  2558.1
+ 40, Gabriel ,    26, F   , São Paulo     , Médico     , 10358.37
+ 41, Bruno   ,    55, M   , São Paulo     , Médico     ,  6669.34
+ 42, Fernanda,    47, F   , Belo Horizonte, Médico     ,  9319.39
+ 43, Bruno   ,    61, F   , Rio de Janeiro, Professor  , 13486.26
+ 44, Ana     ,    34, F   , Belo Horizonte, Analista   ,  3986.32
+ 45, Eduardo ,    57, F   , Curitiba      , Designer   , 11760.26
+ 46, Helena  ,    65, M   , Belo Horizonte, Programador,  7989.03
+ 47, Gabriel ,    43, F   , Curitiba      , Engenheiro ,  7435.14
+ 48, Ana     ,    44, M   , Belo Horizonte, Professor  ,  7195.76
+ 49, Daniela ,    35, F   , Salvador      , Analista   ,  5377.26
+ 50, Ana     ,    56, F   , Rio de Janeiro, Analista   ,  1628.28
+ 51, Juliana ,    64, F   , Rio de Janeiro, Programador,  5480.32
+ 52, Igor    ,    64, F   , Belo Horizonte, Programador,  2917.31
+ 53, Eduardo ,    45, F   , Recife        , Analista   ,  1828.39
+ 54, Eduardo ,    65, M   , Curitiba      , Programador, 11788.36
+ 55, Bruno   ,    54, M   , São Paulo     , Engenheiro ,  1923.84
+ 56, Gabriel ,    47, M   , Belo Horizonte, Programador, 11998.88
+ 57, Fernanda,    50, M   , Porto Alegre  , Programador,  3398.56
+ 58, Igor    ,    50, M   , Belo Horizonte, Analista   ,  4627.21
+ 59, Ana     ,    41, F   , Salvador      , Médico     ,  9036.47
+ 60, Fernanda,    34, F   , São Paulo     , Engenheiro ,  1742.34
+ 61, Carlos  ,    50, F   , Curitiba      , Professor  ,  2547.87
+ 62, Daniela ,    40, M   , Curitiba      , Analista   ,  7977.3
+ 63, Ana     ,    22, F   , São Paulo     , Engenheiro ,  4150.25
+ 64, Carlos  ,    29, M   , Curitiba      , Programador,  5860.39
+ 65, Eduardo ,    46, M   , Rio de Janeiro, Professor  ,  8833.98
+ 66, Daniela ,    45, F   , Porto Alegre  , Analista   ,  7807.49
+ 67, Eduardo ,    49, F   , São Paulo     , Programador,  4329.7
+ 68, Eduardo ,    24, F   , Recife        , Analista   , 10445.48
+ 69, Bruno   ,    53, M   , Curitiba      , Engenheiro , 12661.69
+ 70, Fernanda,    19, M   , São Paulo     , Designer   , 13860.95
+ 71, Bruno   ,    25, F   , Rio de Janeiro, Analista   ,  1555.69
+ 72, Eduardo ,    38, M   , Curitiba      , Programador,  4347.64
+ 73, Gabriel ,    52, F   , Curitiba      , Professor  ,  6892.43
+ 74, Juliana ,    52, M   , Salvador      , Programador,  6125.13
+ 75, Eduardo ,    42, M   , Belo Horizonte, Programador, 11752.19
+ 76, Gabriel ,    31, F   , Belo Horizonte, Médico     ,  4645.44
+ 77, Igor    ,    56, F   , Belo Horizonte, Designer   ,  1938.6
+ 78, Eduardo ,    36, M   , Salvador      , Vendedor   ,  4919.53
+ 79, Fernanda,    32, M   , Curitiba      , Analista   ,  6847.74
+ 80, Ana     ,    46, M   , Curitiba      , Vendedor   ,  4661.41
+ 81, Fernanda,    60, F   , Recife        , Analista   , 14763.63
+ 82, Juliana ,    31, F   , Belo Horizonte, Designer   ,  4123.19
+ 83, Igor    ,    33, F   , Salvador      , Engenheiro ,  5571.42
+ 84, Fernanda,    40, M   , Recife        , Analista   ,  9250.65
+ 85, Juliana ,    33, M   , Salvador      , Vendedor   ,  8099.99
+ 86, Eduardo ,    30, F   , Recife        , Engenheiro ,  7452.93
+ 87, Daniela ,    42, F   , Curitiba      , Professor  ,  5476.71
+ 88, Igor    ,    28, M   , Rio de Janeiro, Programador,  1660.76
+ 89, Daniela ,    39, F   , Rio de Janeiro, Vendedor   ,  3291.8
+ 90, Carlos  ,    21, F   , Recife        , Médico     ,  1985.3
+ 91, Bruno   ,    57, F   , Porto Alegre  , Programador,  8262.37
+ 92, Eduardo ,    54, F   , Recife        , Professor  ,  9776.88
+ 93, Juliana ,    22, F   , Curitiba      , Médico     ,  2091.65
+ 94, Igor    ,    34, F   , Recife        , Engenheiro ,  5150.15
+ 95, Eduardo ,    51, M   , Recife        , Designer   ,  3898.15
+ 96, Ana     ,    60, F   , São Paulo     , Engenheiro , 14321.76
+ 97, Juliana ,    44, M   , São Paulo     , Médico     ,  5343.44
+ 98, Helena  ,    37, M   , São Paulo     , Designer   ,  4824.8
+ 99, Gabriel ,    28, F   , Porto Alegre  , Engenheiro ,  3828.76
+100, Bruno   ,    48, M   , Rio de Janeiro, Designer   ,  3969.92
+101, Ana     ,    56, M   , Curitiba      , Engenheiro ,  7008.74
+102, Juliana ,    48, M   , Belo Horizonte, Engenheiro ,  7016.98
+103, Igor    ,    43, M   , São Paulo     , Programador,  9763.08
+104, Carlos  ,    42, M   , Recife        , Vendedor   ,  6428.43
+105, Juliana ,    26, M   , Recife        , Analista   , 10882.07
+106, Eduardo ,    55, M   , São Paulo     , Professor  ,  1863.5
+107, Gabriel ,    48, M   , Recife        , Vendedor   ,  1850.98
+108, Ana     ,    61, F   , Curitiba      , Médico     , 14503.93
+109, Juliana ,    20, M   , São Paulo     , Vendedor   ,  2535.08
+110, Gabriel ,    34, M   , Belo Horizonte, Engenheiro ,  2018.88
+111, Helena  ,    43, M   , São Paulo     , Programador,  9356.55
+112, Fernanda,    57, M   , Salvador      , Analista   ,  2637.01
+113, Bruno   ,    64, F   , São Paulo     , Médico     ,  2900.7
+114, Carlos  ,    31, M   , Belo Horizonte, Engenheiro ,  7300.39
+115, Ana     ,    24, F   , Recife        , Médico     , 12628.95
+116, Igor    ,    31, F   , Rio de Janeiro, Vendedor   , 14860.73
+117, Ana     ,    57, F   , Recife        , Professor  , 11685.33
+118, Gabriel ,    50, M   , Recife        , Vendedor   ,  3638.9
+119, Gabriel ,    22, M   , Curitiba      , Engenheiro ,  7890.32
+120, Daniela ,    27, F   , Curitiba      , Designer   ,  9944.16
