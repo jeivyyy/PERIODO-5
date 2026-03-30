@@ -1,0 +1,81 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+from sklearn.datasets import load_iris, load_wine
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix
+
+print("Bibliotecas importadas com sucesso! Pronto para chamar a taca.")
+print("\n" + "=" * 50)
+print("INICIANDO O NOSSO 1° PRIMEIRO TESTE:  IRIS")
+print("="*50)
+
+#Incluir os dados
+iris = load_iris()
+X_iris = iris.data # As caracteristicas da flores, tamanho, petala e sepalas
+y_iris = iris.target # As classes, quais eram as "marcas" (tipo)
+
+print (f"Total de amostras: {X_iris.shape[0]}")
+
+#Treinar e testar
+X_train_irism, X_test_iris, y_train_iris, y_test_iris = train_test_split (
+    X_iris, y_iris, test_size = 0.20, random_state = 42
+)
+
+#Normalização desses dados
+sclaler_iris = StandardScaler()
+X_train_iris = sclaler_iris.fit_transform(X_train_irism)
+X_test_iris = sclaler_iris.transform(X_test_iris)
+
+knn_iris = KNeighborsClassifier(n_neighbors = 3)
+knn_iris.fit(X_train_iris, y_train_iris)
+acuracia_iris = accuracy_score(y_test_iris, previsoes_iris)
+print(f"Acurácia no Data Set Iris: {acuracia_iris * 100: .2f}% das flores classifacadas corretamente")
+
+plt.figure(figsize=(6, 4))
+sns.heatmap(confusion_matrix(y_test_iris, previsoes_iris), annot=True, cmap="Greens", fmt="d",
+            xticklabels=iris.target_names, yticklabels=iris.target_names)
+
+plt.title("Acertos e Erros - Iris")
+plt.xlabel("Previsões do KNN")
+plt.ylabel("Oque era na realidade")
+plt.show()
+
+print("\n" + "=" * 100) 
+print("INICIANDO O NOSSO 2° SEGUNDO TESTE:  VINHOS (WINES)")
+print("="*100)
+
+wine = load_wine()
+X_wine = wine.data #As caracteristicas do vinho *(12+1 caracteristicas)
+y_wine = wine.target # 3 tipos diferentes de produtores
+
+print (f"Total de amostras: {X_iris.shape[0]}")
+
+X_train_wine, X_test_wine, y_train_wine, y_test_wine = train_test_split(
+    X_wine, y_wine, test_size=0.20, random_state=42
+)
+
+scaler_wine = StandardScaler()
+X_train_wine = scaler_wine.fit_transform(X_train_wine)
+X_test_wine = scaler_wine.transform(X_test_wine)
+
+knn_wine = KNeighborsClassifier(n_neighbors=5)
+knn_wine.fit(X_train_wine, y_train_wine)
+previsoes_wine = knn_wine.predict(X_test_wine)
+
+acuracia_wine = accuracy_score(y_test_wine, previsoes_wine)
+print(f"Acurácia no Data Set Wine: {acuracia_wine *100: .2f}% dos vinhos classifacadas corretamente")
+
+sns.heatmap(confusion_matrix(y_test_wine, previsoes_wine), annot=True, cmap="Purples", fmt="d",
+            xticklabels=wine.target_names, yticklabels=wine.target_names)
+
+plt.title("Acertos e Erros - Wine")
+plt.xlabel("Previsões do KNN")
+plt.ylabel("Oque era na realidade")
+plt.show()
+
+print("\nDemonstrações finalizadas com sucesso! 🎉")
